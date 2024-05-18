@@ -1,6 +1,6 @@
-const SectionTitleAtm = () => {
+const SectionTitleAtm = ({titleTextProps, ...props}) => {
     return (
-        <h3>{"Section Title"}</h3>
+        <h3 {...props}>{titleTextProps}</h3>
     )
 }
 export default SectionTitleAtm;

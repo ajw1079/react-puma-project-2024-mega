@@ -1,3 +1,6 @@
+npm i : package.json에 작성된 라이브러리 설치
+npm run start : 로컬 환경에서 테스트 실행을 진행(브라우저가 열려서 화면 확인)
+
 puma 사이트 구성하기
  - npx create-react-app puma-project
  - component로 구성
