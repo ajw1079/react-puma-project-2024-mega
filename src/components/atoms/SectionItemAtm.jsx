@@ -13,7 +13,7 @@ const SectionItemAtm = ({srcProps2, altProps2, titProps2, txtProps2, ...props}) 
                 <div className="txt">
                     <h3 className="py-10">{titProps2}</h3>
                     <p className="pb-20">{txtProps2}</p>
-                    {/* 아래 구성을 ButtonAtm />으로 대체 */}
+                    {/* 아래 구성을 ButtonTextAtm />으로 대체 */}
                     <button>Shop Now</button>
                 </div>
             </div>

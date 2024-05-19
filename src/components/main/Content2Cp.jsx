@@ -18,7 +18,7 @@ const Content2Cp = () => {
             <div className="section-title py-70">
                 <SectionTitleAtm titleTextProps="MATCH YOUR ENERGY"/>
                 {/* <h3>MATCH YOUR ENERGY</h3> */}
-                <p>EXPLORE RUNNING CATEGORIES</p>
+                <p className="mt-10">EXPLORE RUNNING CATEGORIES</p>
             </div>
             <ul className="d-flex flex-wrap justify-content-btween w-100">
                 {cate_arr.map((v, i) => (
@@ -44,7 +44,6 @@ const Content2Cp = () => {
                     </div>
                 </li> */}
             </ul>
-
         </section>
     )
 }

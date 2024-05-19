@@ -155,4 +155,42 @@
             }
         }
     }
+    .banner{
+        .wrap{
+            div{
+                height: 260px;
+                &.img{
+                    background-image: url('../../images/run puma.jpg');
+                    background-size: cover;
+                    animation: 30s banner-move infinite linear
+                }
+                &.txt_box{
+                    background-color: $black;
+                    .txt{
+                        color: $white;
+                        h3{font-size: $fs-24;}
+                        p{font-size: $fs-18;}
+                    }
+                    button{
+                        padding: 10px 20px;
+                        border: 1px solid $white;
+                        color: $white;
+                        background-color: $black;
+                        transition: 0.5s;
+                        &:hover{
+                            color: $black;
+                            background-color: $white;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@keyframes banner-move {
+    0% {background-position: 50% 0%;}    
+    50% {background-position: 50% 100%;}    
+    100% {background-position: 50% 0%;}    
 }

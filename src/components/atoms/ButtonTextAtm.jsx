@@ -1,7 +1,8 @@
-const ButtonTextAtm = () => {
+const ButtonTextAtm = ({evtProps, txtProps, ...props}) => {
+    console.log(evtProps);
     return (
-        <button onClick={""}>
-            <span>{"버튼"}</span>
+        <button {...props} onClick={evtProps}>
+            <span>{txtProps}</span>
         </button>
     )
 }
